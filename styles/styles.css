@@ -1,0 +1,109 @@
+:root{
+    --primary-color:hsl(214, 84%, 56%); 
+    --text-color: hsl(0, 0%, 31%);
+    --bg-color: hsl(0, 0%, 90%);
+    --bg-card-color: hsl(0, 0%, 98%); 
+    --transition: color 0.3s, background-color 0.4s ease-in-out;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --font-family: 'Helvetica Neue', Arial, sans-serif; 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family); 
+    transition: var(--transition);
+}
+
+body.dark {
+    --text-color: hsl(0, 0%, 83%);
+    --bg-color: hsl(0, 0%, 15%);
+    --bg-card-color: hsl(0, 0%, 20%); 
+    background-color: var(--bg-color);
+    color: var(--text-color); 
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding: 0 1.5em;
+    background-color: var(--bg-card-color);
+    box-shadow: var(--shadow); 
+    transition: var(--transition);
+}
+
+.switches{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-theme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.toggle-theme:hover, .toggle-theme:focus {
+    transform: scale(1.05);
+}
+
+.toggle-theme__icon{
+    margin-right: 0.5em;
+    width: 20px;
+}
+
+.toggle-theme__text{
+    font-size: 0.8rem;
+}
+
+.colors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 100px;
+}
+
+.colors__item{
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--text-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.3, border-color 0.3s;
+}
+
+.colors__item:hover, .colors__item:focus {
+    border-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.colors__item--blue{
+    --primary-color:hsl(214, 84%, 56%); 
+}
+
+.colors__item--green{
+    --primary-color:hsl(150, 84%, 56%); 
+}
+.colors__item--purple{
+    --primary-color:hsl(276, 84%, 56%); 
+}
+.colors__item--orange{
+    --primary-color:hsl(46, 84%, 56%); 
+}
+
+.title{
+    text-align: center;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
