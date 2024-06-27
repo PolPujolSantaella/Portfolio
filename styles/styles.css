@@ -7,6 +7,7 @@
     --border-radius: 0.4em;
     --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     --font-family: sans-serif; 
+    --skills-bar-length: 0%;
 }
 
 *{
@@ -123,6 +124,7 @@ body.dark {
 .main{
     display: grid;
     padding: 2em;
+    gap: 1.5em;
 }
 
 @media screen and (min-width:720px) {
@@ -131,10 +133,23 @@ body.dark {
     }
 }
 
+.column{
+    display: grid;
+    gap: 0.5em; 
+}
+
+@media screen and (min-width:720px) {
+    .column--right {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, min-content);
+    }
+}
+
 .card {
     padding: 1em;
     background-color: var(--bg-card-color);
     border-radius: var(--border-radius);
+    justify-content: space-between;
 }
 
 .card__image-container {
@@ -166,6 +181,83 @@ body.dark {
     line-height: 1.6;
 }
 
+.skills{
+    padding: 1em 0;
+}
+
+.skills__header {
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    margin-left: auto;
+}
+
+.skills__tech{
+    margin: 0;
+    font-size: 0.8rem;
+
+}
+
+.skills__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.skills__bar,
+.skills__bar::after {
+    position: relative;
+    width: 175px;
+    height:  8px;
+    background-color: #888;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.skills__bar::after {
+    content: '';
+    position: absolute;
+    left: -175px;
+    background-color: var(--primary-color);
+    transition: var(--transition);
+    animation: skills-bar-fill 2s ease-in-out forwards;
+}
+
+.skills__bar--100::after{
+    --skills-bar-length:10%
+}
+.skills__bar--20::after{
+    --skills-bar-length:20%
+}
+.skills__bar--30::after{
+    --skills-bar-length:30%
+}
+.skills__bar--40::after{
+    --skills-bar-length:40%
+}
+.skills__bar--50::after{
+    --skills-bar-length:50%
+}
+.skills__bar--60::after{
+    --skills-bar-length:60%
+}
+.skills__bar--70::after{
+    --skills-bar-length:70%
+}
+.skills__bar--80::after{
+    --skills-bar-length:80%
+}
+.skills__bar--90::after{
+    --skills-bar-length:90%
+}
+
 .icon{
     margin-right: 1em;
+}
+
+@keyframes skills-bar-fill {
+    to{
+        transform: translateX(var(--skills-bar-length));
+    }
 }
