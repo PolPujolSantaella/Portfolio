@@ -139,6 +139,8 @@ body.dark {
 
 .main{
     display: grid;
+    place-content: center;
+    justify-items: center;
     padding: 2em;
     gap: 0.5em;
 }
