@@ -347,7 +347,6 @@ body.dark {
     width: 225px;
 }
 
-
 .button{
     width: 100px;
     line-height: 2.5;
@@ -361,6 +360,13 @@ body.dark {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     align-items: center;
+}
+
+footer {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .icon{
