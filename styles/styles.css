@@ -165,7 +165,6 @@ body.dark {
 @media screen and (min-width:720px) {
     .main {
         grid-template-columns: min-content 1fr;
-        justify-content: center;
     }
 }
 
