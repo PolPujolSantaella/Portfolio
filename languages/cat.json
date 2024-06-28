@@ -19,6 +19,9 @@
 
     "projects": {
         "first-project-title": "Perfil de GitHub",
-        "first-project-description": "Aquí pots veure tots els projectes que he fet durant la meva formació acadèmica i molt més. Aquests projectes m'han ajudat a desenvolupar sobre Design Patterns, Communication Patterns, Web Development, Data Structures, Administration Systems and Networks..."
+        "first-project-description": "Aquí pots veure tots els projectes que he fet durant la meva formació acadèmica i molt més. Aquests projectes m'han ajudat a desenvolupar sobre Design Patterns, Communication Patterns, Web Development, Data Structures, Administration Systems and Networks...",
+        "second-project-title": "Projecte SustainComp",
+        "second-project-description": "Mitjançant el projecte SustainComp (la nostra col·laboració amb la Plataforma Labdoo) recollim maquinari informàtic en desús i el posem novament en funcionament. D’aquesta manera el poden tornar a fer servir col·lectius i persones que no disposen de la tecnologia oportuna per desenvolupar tasques educatives, consultes sanitàries, o accés a diferents portals útils per les necessitats del dia a dia."
+   
     }
 }

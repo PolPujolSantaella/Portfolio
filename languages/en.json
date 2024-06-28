@@ -19,6 +19,8 @@
 
     "projects": {
         "first-project-title": "GitHub Profile",
-        "first-project-description": "Here you can see all the projects I have done during my academic training and much more. These projects have helped me develop in Design Patterns, Communication Patterns, Web Development, Data Structures, Administration Systems, and Networks..."
+        "first-project-description": "Here you can see all the projects I have done during my academic training and much more. These projects have helped me develop in Design Patterns, Communication Patterns, Web Development, Data Structures, Administration Systems, and Networks...",
+        "second-project-title": "SustainComp Project",
+        "second-project-description": "Through the SustainComp project (our collaboration with the Labdoo Platform), we collect unused computer hardware and refurbish it. This way, it can be reused by groups and individuals who lack adequate technology to carry out educational tasks, receive health consultations, or access various useful portals for daily needs."
     }
 }
