@@ -1,0 +1,24 @@
+{
+    "profile": {
+        "rol": "Softwareentwickler",
+        "description": "👋 Ich bin ein Viertjahresstudent der Informatik an der URV, begeistert von Technologie und ständig auf der Suche nach neuen Herausforderungen. Mein Ziel ist es, mein Wissen und meine Fähigkeiten in einem professionellen Umfeld anzuwenden, in dem ich zur Entwicklung innovativer Lösungen beitragen kann. Meine Interessen konzentrieren sich auf Softwareentwicklung, künstliche Intelligenz und Cloud-Computing. Im Laufe meiner akademischen Laufbahn habe ich eine solide Ausbildung in Programmierung, Datenanalyse sowie praktische Erfahrung in verschiedenen Universitätsprojekten erworben.",
+        "years": "Jahre Erfahrung" 
+    },
+
+    "experience": {
+        "first-job-title": "Fußballtrainer",
+        "first-job-dates": "Aug.2017-Aug.2019 (18 Monate)", 
+        "first-job-description": "Pare Manyanet Reus, Tarragona", 
+        "second-job-title": "Lagerarbeiter",
+        "second-job-dates": "Jul-Aug 2021 (1 Monat)", 
+        "second-job-description": "Borges S.A (Carrer de Flix, 29 Reus, Tarragona)", 
+        "last-job-title": "Verkäufer/Kassierer im Lebensmittelladen",
+        "last-job-dates": "Jul-Sept 2022 und 2023 (6 Monate)", 
+        "last-job-description": "SPAR (100 Salou, C/Ponent)"
+    }, 
+
+    "projects": {
+        "first-project-title": "GitHub-Profil",
+        "first-project-description": "Hier können Sie alle Projekte sehen, die ich während meiner akademischen Ausbildung gemacht habe, und vieles mehr. Diese Projekte haben mir geholfen, mich in Design Patterns, Communication Patterns, Web Development, Data Structures, Administration Systems und Networks weiterzuentwickeln..."
+    }
+}

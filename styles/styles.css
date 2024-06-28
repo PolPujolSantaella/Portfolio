@@ -57,6 +57,22 @@ body.dark {
     justify-content: space-between;
 }
 
+.flags{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags__item{
+    width: 30px;
+}
+
+.flags__img{
+    cursor: pointer;
+    display: block;
+}
+
 .toggle-theme{
     display: flex;
     align-items: center;

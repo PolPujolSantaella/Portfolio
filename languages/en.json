@@ -1,0 +1,24 @@
+{
+    "profile": {
+        "role": "Software Developer",
+        "description": "👋 I am a fourth-year Computer Engineering student at URV, passionate about technology and constantly seeking new challenges. My goal is to apply my knowledge and skills in a professional environment where I can contribute to the development of innovative solutions. My interests focus on software development, artificial intelligence, and cloud computing. Throughout my academic career, I have acquired a solid background in programming, data analysis, as well as practical experience in various university projects.",
+        "years": "Years of Experience" 
+    },
+
+    "experience": {
+        "first-job-title": "Soccer Coach",
+        "first-job-dates": "Aug.2017-Aug.2019 (18 months)", 
+        "first-job-description": "Pare Manyanet Reus, Tarragona", 
+        "second-job-title": "Warehouse Worker",
+        "second-job-dates": "Jul-Aug 2021 (1 month)", 
+        "second-job-description": "Borges S.A (Carrer de Flix, 29 Reus, Tarragona)", 
+        "last-job-title": "Stock Clerk/Cashier at Grocery Store",
+        "last-job-dates": "Jul-Sept 2022 and 2023 (6 months)", 
+        "last-job-description": "SPAR (100 Salou, C/Ponent)"
+    }, 
+
+    "projects": {
+        "first-project-title": "GitHub Profile",
+        "first-project-description": "Here you can see all the projects I have done during my academic training and much more. These projects have helped me develop in Design Patterns, Communication Patterns, Web Development, Data Structures, Administration Systems, and Networks..."
+    }
+}
