@@ -1,5 +1,5 @@
 :root{
-    --primary-color:hsl(150, 84%, 56%);
+    --primary-color:hsl(150, 84%, 56%); ; 
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%); 
@@ -26,7 +26,6 @@ img{
 
 body{
     margin: 0;
-    padding: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: var(--font-family); 
@@ -52,13 +51,6 @@ body.dark {
     transition: var(--transition);
 }
 
-@media screen and (max-width:719px){
-    .header{
-        height: auto;
-        padding: 1em;
-    }
-}
-
 .switches{
     display: flex;
     align-items: center;
@@ -79,16 +71,6 @@ body.dark {
 .flags__img{
     cursor: pointer;
     display: block;
-}
-
-@media screen and (max-width: 719px) {
-    .flags{
-        width: auto;
-        justify-content: center;
-    }
-    .flags__item {
-        margin: 0 0.5em;
-    }
 }
 
 .toggle-theme{
@@ -187,16 +169,10 @@ body.dark {
 
 .card__image-container {
     min-width: 320px;
-    max-width: 100%;
     border-radius: var(--border-radius);
     overflow: hidden;
 }
 
-.card--experience,
-.card--project {
-    width: 100%;
-    justify-content: center;
-}
 
 .card__header{
     padding: 1em 0;
@@ -221,19 +197,12 @@ body.dark {
     line-height: 1.6;
 }
 
-@media screen and (min-width: 719px){
+@media screen and (min-width: 760px){
     .card--project{
         display: grid;
         grid-template-columns: min-content 1fr;
         grid-column: 1 / -1;
         align-items: center;
-    }
-    .card__image-container {
-        max-width: 100%;
-    }
-    .card__image {
-        width: 100%;
-        height: auto;
     }
 }
 
