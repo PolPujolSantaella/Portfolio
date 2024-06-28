@@ -86,7 +86,6 @@ body.dark {
     .flags{
         width: auto;
         justify-content: center;
-        margin-bottom: 1em;
     }
     .flags__item {
         margin: 0 0.5em;
@@ -165,10 +164,8 @@ body.dark {
 
 @media screen and (min-width:720px) {
     .main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         grid-template-columns: min-content 1fr;
+        justify-content: center;
     }
 }
 
